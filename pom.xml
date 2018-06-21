@@ -85,6 +85,7 @@
                 </property>
               </properties>
               <testFailureIgnore>true</testFailureIgnore>
+		    <executable>C:\Program Files\jdk1.8.0_65\bin</executable>
             </configuration>
           </plugin>
         </plugins>
