@@ -3,7 +3,7 @@
 	<groupId>in.mphasis</groupId>
 	<artifactId>DevOpsDemoProject</artifactId>
 	<packaging>war</packaging>
-	<version>17.0.4-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
 	
@@ -31,15 +31,15 @@
 	</dependencies>
 	<distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>hare</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://localhost:8081/nexus/content/repositories/hare/</url>
 			<uniqueVersion>false</uniqueVersion>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>ram</id>
             <name>Internal Snapshot Releases</name>
-                     <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+                     <url>http://localhost:8081/nexus/content/repositories/ram/</url>
 			<uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
