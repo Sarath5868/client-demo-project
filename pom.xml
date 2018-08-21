@@ -30,15 +30,15 @@
 	</dependencies>
 	<distributionManagement>
         <repository>
-            <id>hare</id>
-            <name>hare</name>
-            <url>http://localhost:8081/nexus/content/repositories/hare/</url>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://192.168.33.40:8081/nexus/content/repositories/releases/</url>
 			<uniqueVersion>false</uniqueVersion>
         </repository>
         <snapshotRepository>
-            <id>ram</id>
-            <name>ram</name>
-                     <url>http://localhost:8081/nexus/content/repositories/ram/</url>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+                     <url>http://192.168.33.40:8081/nexus/content/repositories/snapshots/</url>
 			<uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
