@@ -6,12 +6,6 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
- 
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>2.7</version>
-        <packaging>maven-plugin</packaging>
-        <name>Maven Deploy Plugin</name>
-	
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -39,8 +33,7 @@
     <id>RELEASES</id>
     <url>http://localhost:8081/nexus/content/repositories/RELEASES</url>
   </repository>
-
-        <snapshotRepository>
+       <snapshotRepository>
     <id>SNAPSHOT</id>
     <url>http://localhost:8081/nexus/content/repositories/SNAPSHOT</url>
   </snapshotRepository>
@@ -64,9 +57,9 @@
             <project.scm.id>git</project.scm.id>
          </properties>
 	  <scm>
-		<url>https://github.com/shankaradapa/client-demo-project</url>
-		<connection>scm:git:https://github.com/shankaradapa/client-demo-project</connection>
-		<developerConnection>scm:git:https://github.com/shankaradapa/client-demo-project</developerConnection>
+		<url>https://github.com/dhrkrishna/client-demo-project</url>
+		<connection>scm:git:https://github.com/dhrkrishna/client-demo-project</connection>
+		<developerConnection>scm:git:https://github.com/dhrkrishna/client-demo-project</developerConnection>
 	    <tag>HEAD</tag>
   </scm>
 	<profiles>
@@ -87,7 +80,7 @@
                 </property>
               </properties>
               <testFailureIgnore>true</testFailureIgnore>
-		    <executable>C:\Program Files\jdk1.8.0_65\bin</executable>
+		    <executable>C:\Program Files\Java\jdk1.7.0_79\bin</executable>
             </configuration>
           </plugin>
         </plugins>
