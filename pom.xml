@@ -3,7 +3,7 @@
 	<groupId>in.mphasis</groupId>
 	<artifactId>DevOpsDemoProject</artifactId>
 	<packaging>war</packaging>
-	<version>2.0</version>
+	<version>1.0</version>
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -80,7 +80,7 @@
                 </property>
               </properties>
               <testFailureIgnore>true</testFailureIgnore>
-		    <executable>C:\Program Files\Java\jdk1.7.0_79\bin</executable>
+		    <executable>/opt/jdk1.8.0_171/bin</executable>
             </configuration>
           </plugin>
         </plugins>
