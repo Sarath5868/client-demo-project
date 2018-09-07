@@ -80,7 +80,7 @@
                 </property>
               </properties>
               <testFailureIgnore>true</testFailureIgnore>
-		    <executable>/opt/jdk1.8.0_171/bin</executable>
+		    <executable>/opt/jdk1.8.0_181/bin</executable>
             </configuration>
           </plugin>
         </plugins>
